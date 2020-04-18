@@ -1,0 +1,274 @@
+/** Add any CSS you need to this file. */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Montserrat:ital,wght@0,300;1,100;1,300&family=Oswald:wght@700&display=swap');
+body {
+  margin: 0;
+  background-color: rgb(248, 222, 183);
+}
+header {
+  background-color: rgb(252, 188, 145);
+  background-image: url(header-background.png);
+  text-align: center;
+  margin-bottom: 1%;
+  font-family: 'Oswald', sans-serif;
+  box-shadow: 0 0 1px #000 inset;
+}
+header h1 {
+  color: rgb(56, 190, 243);
+  font-size: 90px;
+  padding-bottom: 1%;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-shadow: 1px 1px 1px rgb(54, 54, 54);
+  background: rgb(250, 204, 174);
+}
+header h2 {
+  font-size: 3vw;
+}
+header img {
+  height: 20em;
+  width: 20em;
+}
+.guidance {
+  display: flex;
+  flex-direction: row;
+}
+nav p {
+  text-decoration: none;
+  color: rgb(255, 235, 170);
+  text-shadow: 2px 1px 1px rgb(54, 54, 54);
+}
+nav {
+  padding: 0.1% 0.1%;
+}
+nav ul li {
+  font-size: 3.5vw;
+  padding: 0 5%;
+  display: inline-block;
+}
+.main_page {
+  font-size: 5vw;
+}
+#main_page {
+  text-decoration: none;
+  font-size: 150%;
+  color: rgb(255, 235, 170);
+  text-shadow: 2px 1px 1px rgb(54, 54, 54);
+}
+#contact_access {
+  text-decoration: none;
+  font-size: 150%;
+  color: rgb(255, 235, 170);
+  text-shadow: 2px 1px 1px rgb(54, 54, 54);
+}
+.drop_bedding {
+  opacity: 80%;
+  text-align: left;
+  display: block;
+  text-decoration: none;
+  color: rgb(255, 235, 170);
+  visibility: hidden;
+  position: absolute;
+  padding: none;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0 0 1px #000 inset;
+  padding-left: 10px;
+}
+#drop:hover .drop_bedding {
+  visibility: visible;
+  display: block;
+}
+.bedding {
+  border-top: 1px solid rgb(226, 226, 226);
+  text-shadow: 2px 1px 1px rgb(54, 54, 54);
+}
+.pillow_duvets li {
+  font-size: 50%;
+  margin-bottom: 2%;
+}
+.itemList {
+  text-align: right;
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+}
+#itemContact {
+  text-align: right;
+  margin-right: 2%;
+  margin-left: 18%;
+}
+#selectItem {
+  text-align: center;
+  padding: 1%;
+  background-color: whitesmoke;
+  margin: 5%;
+  width: 50%;
+  padding-bottom: 0;
+}
+#selectItem img {
+  width: 90%;
+  height: 90%;
+}
+#selectItem h3 {
+  text-align: right;
+}
+#selectItem h4 {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+.item {
+  padding: 1%;
+  background-color: whitesmoke;
+  margin: 20px;
+  width: 90%;
+  padding-bottom: 0;
+}
+.item2 {
+  padding: 1%;
+  background-color: whitesmoke;
+  margin: 20px;
+  width: 90%;
+  padding-bottom: 0;
+}
+.itemName {
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Baloo Tamma 2', cursive;
+  text-shadow: 2px 1px 1px rgb(201, 201, 201);
+  margin: 0;
+  border-bottom: 1px solid rgb(233, 233, 233);
+}
+.price {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 2vw;
+  text-shadow: 1px 1px 1px rgb(201, 201, 201);
+  padding-bottom: 0%;
+  padding-right: 3%;
+}
+.itemCategory {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  text-shadow: 1px 1px 1px rgb(201, 201, 201);
+  padding-bottom: 3%;
+  padding-right: 3%;
+  margin-bottom: 5%;
+}
+.itemCategory a {
+  text-decoration: none;
+  color: black;
+}
+.itemImg {
+  width: 100%;
+}
+.item_align {
+  display: inline-block;
+}
+.leftNavigator {
+  width: 30%;
+  height: 15em;
+  background-color: rgb(250, 246, 246);
+  position: fixed;
+  right: 0px;
+  bottom: 50%;
+}
+#navTitle {
+  padding-left: 1vw;
+  border-bottom: 1px solid rgb(236, 235, 235);
+  color: rgb(119, 111, 111);
+  font-family: 'Oswald', sans-serif;
+}
+.leftNav {
+  padding-left: 1vw;
+  font-size: 1em;
+  font-family: 'Oswald', sans-serif;
+}
+.leftNav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  color: rgb(119, 111, 111);
+}
+.leftNav_items {
+  color: rgb(119, 111, 111);
+}
+.leftNav_subItems {
+  color: rgb(119, 111, 111);
+  margin-bottom: 10px;
+}
+#closeNav {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  position: absolute;
+  bottom: -10%;
+}
+#openNav {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  position: absolute;
+  bottom: -10%;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+footer {
+  height: 2vx;
+  background-color: rgb(250, 246, 246);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#contactFill {
+  text-align: center;
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  box-shadow: 0 0 1px #000 inset;
+}
+#contactFill div {
+  margin: 0;
+  padding: 1vw;
+}
+
+.inputSection {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+  width: 20vw;
+}
+#numTips {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+  text-align: left;
+}
+#contactFill label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+}
+#messageFill textarea {
+  width: 40%;
+  height: 10vw;
+}
+#send button {
+  width: 30%;
+  height: 5vw;
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+}
+#ifCall {
+  width: 2vw;
+}
+#type input {
+  width: 2vw;
+}
+#orderProblem input {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+  width: 40%;
+}
